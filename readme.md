@@ -1,4 +1,5 @@
-# itau-extract
+# extrator-fatura-itau
+Já quis extrair as transações do seu cartão Itaú em formato CSV e se frustou miseravelmente? Este repositório quer te ajudar.
 
 
 ## Como executar
