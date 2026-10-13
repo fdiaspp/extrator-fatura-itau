@@ -1,2 +1,4 @@
 .local
 *.csv
+input/
+output/

@@ -1,0 +1,13 @@
+services:
+  tests:
+    build: .
+    container_name: fatura-test
+    image: elvis/fatura-itau:latest
+    command: ["pytest", "test.py"]
+
+  app:
+    build: .
+    container_name: fatura-main
+    image: elvis/fatura-itau:latest
+    volumes:
+      - ./output:/app/output
